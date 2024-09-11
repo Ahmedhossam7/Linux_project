@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ahmed/Desktop/final_project/projectCmake/Application/app.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+caesar_cipher.h
+/home/ahmed/Desktop/final_project/projectCmake/Application/caesar_cipher.h
+xor_cipher.h
+/home/ahmed/Desktop/final_project/projectCmake/Application/xor_cipher.h
+
+/home/ahmed/Desktop/final_project/projectCmake/Modules/caesar_cipher/inc/caesar_cipher.h
+
+/home/ahmed/Desktop/final_project/projectCmake/Modules/xor_cipher/inc/xor_cipher.h
+
